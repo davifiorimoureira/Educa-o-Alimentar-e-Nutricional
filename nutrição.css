@@ -1,0 +1,278 @@
+ /* Menu */
+nav.menu{
+  background-color: #FAE8E8;
+  margin-left: 150px;
+}
+
+.menu ul {
+  list-style: none;
+  margin:0 auto;
+  padding:0;
+  display:flex;
+  max-width: 1800px;
+  justify-content:center;
+}
+
+.menu li{
+  margin:0;
+}
+
+.menu a {
+  display: block;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #A9DEAC;
+  color:#FFF6ED;
+}
+
+
+/* Estrutura */
+header{
+    background-color:#FAE8E8;
+    max-width: 1200px;
+}
+
+body {
+    font-family: "Playwrite US Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin:0;
+    padding:0;
+    background-color:#FAE8E8;
+}
+
+.gif-fixo {
+    position: fixed; /* Fixa o elemento em relação à janela de visualização (viewport) */
+    bottom: 20px;    /* Define a distância do fundo da tela */
+    right: 20px;     /* Define a distância da direita da tela */
+    width: 200px;    /* Define a largura do GIF (opcional, ajuste conforme necessário) */
+    z-index: 1000;   /* Garante que o GIF fique acima de outros elementos (opcional) */
+}
+
+section{
+	background-color:#FAE8E8 ;
+
+}
+
+div.Início{
+    margin:80px;
+    margin-top:0px;
+    max-width:1800px;
+    padding:100px;
+    font-size: 27px;
+    background-color:#FFF6ED
+}
+
+
+/* Carrossel de imagens  */
+img.imagem{
+    width: 100%;
+}
+
+div.slideshow-contanier { 
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+div.meuSlide {
+    display: none;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Todo o texto  */
+div.Introdução{
+	margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#A9DEAC;
+}
+
+div.ConceitodeEducaçãoAlimentareNutricional{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#FFF6ED;
+}
+
+div.ImportânciadaEANnaPromoçãodaSaúde{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#FFBDC1;
+}
+
+div.EANnoAmbienteEscolar{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#FFF6ED;
+}
+
+div.EANnoContextoFamiliareComunitário{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#D2CBE3;
+}
+
+div.DesafiosparaaImplementaçãodaEAN{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#FFF6ED;
+}
+
+div.EstratégiaseFerramentasEducativas{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#A9DEAC;
+}
+
+div.EstudosdeCasoProjetosRelevantes{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#FFF6ED;
+}
+
+div.ConsideraçõesFinais{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#FFBDC1;
+}
+
+
+/* Podcast */
+div.Podcast{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#FFF6ED;
+}
+
+div.audio{
+    text-align: center;
+}
+
+/* Vídeo */
+div.Vídeo{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#D2CBE3;
+}
+
+div.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Referências */
+div.ReferênciasBibliográficas{
+    margin:80px;
+    max-width:1800px;
+    padding:30px;
+    background-color:#FFF6ED;
+}
+
+div.listas{
+  display:flex;
+}
+
+ul.lista-1, ul.lista-2 {
+  display: inline-block; 
+  vertical-align: top;
+  color 
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Rodapé */
+footer{
+   margin:80px;
+   max-width:1800px;
+   padding:30px;
+   background-color:#A9DEAC;
+   text-align: center; 
+   margin-bottom:0px;
+}
